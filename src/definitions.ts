@@ -5,5 +5,8 @@ declare module '@capacitor/core' {
   }
 
 export interface CapacitorKakaolinkPlugin {
-    sendCustom(options: { requestUrl: string; templateId: number; templateArgs: object; }): Promise<void>;
+    sendCustom(options: { 
+        templateId: string; 
+        templateArgs: object; 
+    }): Promise<void>;
 }

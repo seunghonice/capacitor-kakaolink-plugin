@@ -7,7 +7,7 @@ var core = require('@capacitor/core');
 class CapacitorKakaolinkWeb extends core.WebPlugin {
     constructor() {
         super({
-            name: 'AppUpdatePlugin',
+            name: 'CapacitorKakaolink',
             platforms: ['web']
         });
     }

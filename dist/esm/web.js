@@ -2,7 +2,7 @@ import { WebPlugin } from '@capacitor/core';
 export class CapacitorKakaolinkWeb extends WebPlugin {
     constructor() {
         super({
-            name: 'AppUpdatePlugin',
+            name: 'CapacitorKakaolink',
             platforms: ['web']
         });
     }

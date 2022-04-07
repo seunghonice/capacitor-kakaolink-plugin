@@ -4,7 +4,7 @@ var capacitorCapacitorKakaolink = (function (exports, core) {
     class CapacitorKakaolinkWeb extends core.WebPlugin {
         constructor() {
             super({
-                name: 'AppUpdatePlugin',
+                name: 'CapacitorKakaolink',
                 platforms: ['web']
             });
         }

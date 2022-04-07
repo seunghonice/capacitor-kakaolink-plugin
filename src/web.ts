@@ -4,12 +4,12 @@ import { CapacitorKakaolinkPlugin } from './definitions';
 export class CapacitorKakaolinkWeb  extends WebPlugin implements CapacitorKakaolinkPlugin {
     constructor() {
         super({
-            name: 'AppUpdatePlugin',
+            name: 'CapacitorKakaolink',
             platforms: ['web']
         });
     }
 
-    async sendCustom(options: { requestUrl: string; templateId: number; templateArgs: object; }): Promise<void> {
+    async sendCustom(options: { templateId: string; templateArgs: object; }): Promise<void> {
     console.log('sendCustom', options);
   }
 }

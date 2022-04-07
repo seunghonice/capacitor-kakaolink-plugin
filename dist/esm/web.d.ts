@@ -3,8 +3,7 @@ import { CapacitorKakaolinkPlugin } from './definitions';
 export declare class CapacitorKakaolinkWeb extends WebPlugin implements CapacitorKakaolinkPlugin {
     constructor();
     sendCustom(options: {
-        requestUrl: string;
-        templateId: number;
+        templateId: string;
         templateArgs: object;
     }): Promise<void>;
 }
