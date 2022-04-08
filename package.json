@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-kakaolink-plugin",
+  "name": "capacitor-plugin-kakaolink",
   "version": "0.0.1",
   "description": "capacitor plugin for kakaolink",
   "main": "dist/plugin.cjs.js",
@@ -16,10 +16,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seunghonice/capacitor-kakaolink-plugin.git"
+    "url": "git+https://github.com/seunghonice/capacitor-plugin-kakaolink.git"
   },
   "bugs": {
-    "url": "https://github.com/seunghonice/capacitor-kakaolink-plugin/issues"
+    "url": "https://github.com/seunghonice/capacitor-plugin-kakaolink/issues"
   },
   "keywords": [
     "capacitor",
