@@ -9,9 +9,13 @@ export class CapacitorKakaolinkWeb  extends WebPlugin implements CapacitorKakaol
         });
     }
 
-    async sendCustom(options: { templateId: string; templateArgs: object; }): Promise<void> {
-    console.log('sendCustom', options);
-  }
+    async sendCustom(options: { 
+      hostname: string;
+      templateId: string;
+      templateArgs: object; 
+    }): Promise<void> {
+      console.log('sendCustom', options);
+    }
 }
 
 const CapacitorKakaolink = new CapacitorKakaolinkWeb();
