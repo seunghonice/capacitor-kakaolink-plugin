@@ -8,14 +8,13 @@ import KakaoSDKLink
  */
 @objc(CapacitorKakaolinkPlugin)
 public class CapacitorKakaolinkPlugin: CAPPlugin {
-    private let implementation = CapacitorKakaolink()
 
     @objc func sendCustom(_ call: CAPPluginCall) {
         let hostname = call.getString("hostname") ?? ""
         let templateId = Int64(call.getString("templateId") ?? "0")
         let templateArgs = (call.getObject(_:defaultValue:)("templateArgs") ?? [:]) as! [String:String]
         let path = templateArgs["product_path"] ?? ""
-        let requestUrl = hostname + path
+        let requestUrl = hostname + "/" + path
         
         // 카카오톡 설치여부 확인
         if LinkApi.isKakaoLinkAvailable() {
