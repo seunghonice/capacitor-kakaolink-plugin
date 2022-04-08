@@ -14,7 +14,7 @@
     "@capacitor/core": "^2.4.6",
     "@capacitor/camera": "latest",
     "@capacitor/splash-screen": "latest",
-    "capacitor-plugin-kakaolink": "file:.."
+    "capacitor-kakaolink-plugin": "file:.."
   },
   "devDependencies": {
     "@capacitor/cli": "latest"
