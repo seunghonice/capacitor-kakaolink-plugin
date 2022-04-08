@@ -1,5 +1,6 @@
 import Foundation
 import Capacitor
+import KakaoSDKLink
 
 /**
  * Please read the Capacitor iOS Plugin Development Guide
